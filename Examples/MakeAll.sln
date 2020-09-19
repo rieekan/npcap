@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iflist", "iflist\iflist.vcxproj", "{0B27B213-4BF3-4611-B412-A2D09CDE8632}"
 EndProject
@@ -38,6 +38,11 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "savedump", "misc\savedump.vcxproj", "{1B8791CB-DD15-46BF-B0A2-879892085538}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sendpack", "misc\sendpack.vcxproj", "{1C376689-5F61-48E7-AE83-0DED9EE9E458}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "offsets", "offsets", "{C1B45136-A28A-40DB-892E-C4915B5F27E8}"
+	ProjectSection(SolutionItems) = preProject
+		pubgoffsets.h = pubgoffsets.h
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -194,5 +199,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ECC8BFC-FE5C-4BBA-91E2-DEDA986ED481}
 	EndGlobalSection
 EndGlobal

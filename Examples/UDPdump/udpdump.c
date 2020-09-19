@@ -34,6 +34,8 @@
 #include <pcap.h>
 #include <Winsock2.h>
 #include <tchar.h>
+#include <time.h>
+
 BOOL LoadNpcapDlls()
 {
     _TCHAR npcap_dir[512];
